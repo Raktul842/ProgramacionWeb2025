@@ -76,7 +76,7 @@ function calcular() {
         document.getElementById("aPagar").textContent = extra;
         document.getElementById("dinero").textContent = "$" + pago.toLocaleString("es-AR");
     } else {
-        // si el campo está vacío o no es número
+        // si el campo esta vacío o no es numero
         document.getElementById("aPagar").textContent = "—";
         document.getElementById("dinero").textContent = "—";
     }
